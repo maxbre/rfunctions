@@ -1,5 +1,17 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # rfunctions
 
@@ -15,8 +27,7 @@ Caveat emptor: use it at your own risk.
 
 ## Installation
 
-You can install the development version of ‘rfunctions’ from the
-repository at [GitHub](https://github.com/maxbre/rfunctions) with:
+You can install the development version of 'rfunctions' from the repository at [GitHub](https://github.com/maxbre/rfunctions) with:
 
 ``` r
 if(!require("devtools")) install.packages("devtools")
