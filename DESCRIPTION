@@ -13,4 +13,5 @@ Imports:
     mapview,
     readr,
     fs,
-    magrittr
+    magrittr,
+    terra
