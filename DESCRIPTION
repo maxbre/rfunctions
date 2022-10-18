@@ -7,7 +7,7 @@ Description: A mixed collection of my handy R functions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Remotes:
     maxbre/rfunctions
 Depends:
@@ -19,4 +19,5 @@ Imports:
     fs,
     magrittr,
     terra,
-    lubridate
+    lubridate,
+    stringr
